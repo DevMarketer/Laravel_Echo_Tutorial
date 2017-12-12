@@ -14,6 +14,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+    @yield('styles')
 </head>
 <body>
     <div id="app">
@@ -77,9 +78,22 @@
         </nav>
 
         @yield('content')
+
+        <div class="container">
+          <div class="col-md-12">
+            <hr />
+          </div>
+
+          <div class="col-md-12" style="margin-bottom: 20px;">
+            <div class="text-center">
+              Tutorial Taught & Built with ❤️ by <a href="https://devmarketer.io">DevMarketer</a>
+            </div>
+          </div>
+        </div>
     </div>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    @yield('scripts')
 </body>
 </html>
