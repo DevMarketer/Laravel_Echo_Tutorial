@@ -1,0 +1,99 @@
+/* styling requires the .btn class, the .btn-social class, and then the social network
+    class that you want to style it as (such as .btn-facebook)*/
+
+/* Support for Facebook, Twitter, Github, Google, LinkedIn, Instagram, Yahoo, Dropbox */
+
+/* Example:
+  <a class="btn btn-social btn-facebook">
+    <span class="fa fa-facebook"></span>
+    Login with Facebook
+  </a>
+*/
+
+.btn-social {
+  position: relative;
+  text-align: left;
+  text-overflow: ellipsis;
+  color: white;
+  padding-left: 40px;
+}
+
+.btn-social:hover {
+  color: white;
+}
+
+.btn-social > :first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    line-height: 1.6em;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn-social.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-social.btn-facebook:hover {
+  background-color: #324b80;
+}
+
+.btn-social.btn-twitter {
+  background-color: #55acee;
+}
+
+.btn-social.btn-twitter:hover {
+  background-color: #369deb;
+}
+
+.btn-social.btn-github {
+  background-color: #444;
+}
+
+.btn-social.btn-github:hover {
+  background-color: #333;
+}
+
+.btn-social.btn-google {
+  background-color: #dd4b39;
+}
+
+.btn-social.btn-google:hover {
+  background-color: #d03724;
+}
+
+.btn-social.btn-linkedin {
+  background-color: #007bb6;
+}
+
+.btn-social.btn-linkedin:hover {
+  background-color: #006494;
+}
+
+.btn-social.btn-instagram {
+  background-color: #3f729b;
+}
+
+.btn-social.btn-instagram:hover {
+  background-color: #356083;
+}
+
+.btn-social.btn-yahoo {
+  background-color: #720e9e;
+}
+
+.btn-social.btn-yahoo:hover {
+  background-color: #5b0b7f;
+}
+
+.btn-social.btn-dropbox {
+  background-color: #1087dd;
+}
+
+.btn-social.btn-dropbox:hover {
+  background-color: #0e74bd;
+}
